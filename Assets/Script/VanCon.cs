@@ -55,7 +55,7 @@ public class VanCon : MonoBehaviour
         // Adjust speed based on distance.
         if (distance < CLOSE_DISTANCE && slowedDown == false)
         {
-            currentSpeed *= 0.5f;
+            currentSpeed *= 0.1f;
             slowedDown = true;
         }
         // Move the game object.
